@@ -15,7 +15,7 @@ print(sess.run(w))
 
 测试:
 ```
-nvidia-docker run --rm -v /home/test.py:/test.py timiil/deep:cuda9_ubuntu16.04_cudnn7.0.5_tf1.5_gpu python3 /test.py
+nvidia-docker run --rm -v /home/test.py:/test.py timiil/deep:cuda9_ubuntu16.04_cudnn7.0.5_tf1.5 python3 /test.py
 ```
 
 正常应该返回:
